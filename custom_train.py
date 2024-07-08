@@ -75,7 +75,7 @@ if __name__ == "__main__":
         append_eos = True
     else:
         raise NotImplementedError(model_key)
-
+# 选择微调的方式，可以在此处添加我的微调方法
     if "ft_cot" in args.preset_key:
         completion_key = "ft_cot"
     elif args.preset_key == "ft":
